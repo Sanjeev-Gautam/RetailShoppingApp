@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Welcome New World"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#492121"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="158dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="52dp"
+        android:text="Forget Password"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_signup" />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/bg_button_white"
+        android:fontFamily="@font/aclonica"
+        android:text="Sign UP"
+        android:textColor="#674242"
+        app:layout_constraintEnd_toStartOf="@+id/login_btn"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginRight="172dp"
+        android:background="@drawable/bg_button_white"
+        android:fontFamily="@font/aclonica"
+        android:text="Sign IN"
+        android:textColor="#674242"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+    <EditText
+        android:id="@+id/Lemail"
+        android:layout_width="261dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="132dp"
+        android:ems="10"
+        android:fontFamily="@font/aclonica"
+        android:hint="Enter Your Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColorHint="#674242"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Lpassword"
+        android:layout_width="263dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:fontFamily="@font/aclonica"
+        android:hint="Enter Your Password"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:textColorHint="#674242"
+        app:layout_constraintStart_toStartOf="@+id/Lemail"
+        app:layout_constraintTop_toBottomOf="@+id/Lemail" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Remember Me"
+        android:verticalScrollbarPosition="defaultPosition"
+        app:layout_constraintStart_toStartOf="@+id/Lpassword"
+        app:layout_constraintTop_toBottomOf="@+id/Lpassword" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "972095049084",
+    "firebase_url": "https://shopping-app-ca520.firebaseio.com",
+    "project_id": "shopping-app-ca520",
+    "storage_bucket": "shopping-app-ca520.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972095049084:android:ed469fb7e44d748c0268f9",
+        "android_client_info": {
+          "package_name": "com.example.first1app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972095049084-sljrhoeq922nj8fvdpiaj082kmh6ko35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhuU4WMdbrntlLnaXQ7oTjDFh-IBFnXow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972095049084-sljrhoeq922nj8fvdpiaj082kmh6ko35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
